@@ -146,3 +146,20 @@ textarea:focus {
     text-align: center;
   }
 }
+
+.dark i {
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  border: 1px solid $primary;
+  line-height: 70px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  transition: 0.3s;
+  color: $primary !important;
+}
+
+.dark {
+  background-color: $black !important;
+  color: $white !important;
+}
